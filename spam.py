@@ -9,7 +9,7 @@ def test():
 	subprocess.run(["git", "push"])
 	print('writed')
    
-schedule.every(2).seconds.do(test)
+schedule.every(1).seconds.do(test)
 while 1:
 	schedule.run_pending()
 	time.sleep(0)
