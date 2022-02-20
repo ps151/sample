@@ -1,6 +1,6 @@
 import time, os, schedule, subprocess
 
-def test():
+while True:
 	f = open("README.md", "a")
 	f.write("a\n")
 	f.close()
@@ -9,7 +9,7 @@ def test():
 	subprocess.run(["git", "push"])
 	print('writed')
    
-schedule.every(1).seconds.do(test)
-while 1:
-	schedule.run_pending()
-	time.sleep(0)
+# schedule.every(1)..do(test)
+# while 1:
+# 	schedule.run_pending()
+# 	time.sleep(0)
