@@ -9,7 +9,3 @@ while True:
 	subprocess.run(["git", "push"])
 	print('writed')
    
-# schedule.every(1)..do(test)
-# while 1:
-# 	schedule.run_pending()
-# 	time.sleep(0)
