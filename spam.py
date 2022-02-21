@@ -7,5 +7,5 @@ while True:
 	subprocess.run(["git", "add", "*"])
 	subprocess.run(["git", "commit", "-m", "a"])
 	subprocess.run(["git", "push"])
-	print('==================',count+11,'====================')
+	print('==================')
    
