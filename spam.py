@@ -1,6 +1,5 @@
 import time, os, schedule, subprocess
 while True:
-	count = 0
 	f = open("README.md", "a")
 	f.write("a\n")
 	f.close()
