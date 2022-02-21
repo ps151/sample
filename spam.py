@@ -1,5 +1,5 @@
 import time, os, schedule, subprocess
-
+count = 0
 while True:
 	f = open("README.md", "a")
 	f.write("a\n")
@@ -7,5 +7,5 @@ while True:
 	subprocess.run(["git", "add", "*"])
 	subprocess.run(["git", "commit", "-m", "a"])
 	subprocess.run(["git", "push"])
-	print('writed')
+	print('==================',count+1,'====================')
    
